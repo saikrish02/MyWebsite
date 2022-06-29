@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title> Register Page</title>
+    <link rel="stylesheet" href="../css/register.css">
 
 </head>
 
@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class = "reg" id = "reg1">
-        <p class = "reg_msg">New User, <a href = "./register.html" id = "anchor">Register here.</a></p>
+        <p class = "reg_msg">Already a User, <a href = "./index.html" id = "anchor">Login here.</a></p>
     </div>
     <div id = "error">
         <p id = "error_msg"></p>
@@ -30,11 +30,13 @@
             <p class="desc"> Enter Details </p><hr>
             <br>
        <form id = "form"  method="post"> 
-            <input type="email" name="name" id="name" placeholder="Enter Your Email"><br><br>
-            <button id="submit" >Continue</button>
+            <input type = "text" name = "name" id = "name" placeholder="Enter name"><br><br>
+            <input type = "email" name="email" id="email" placeholder="Enter Email"><br><br>
+            <input type = "password" name = "pass" id = "pass" placeholder="Enter Password"><br><br>
+            <button id="submit" >Submit&rarr;</button>
         </form>   
     </div>
-    <script src="../javascript/game.js" ></script> 
+    <script src="../javascript/register.js" ></script> 
 </body>
 
 </html>
