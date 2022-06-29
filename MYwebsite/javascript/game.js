@@ -66,7 +66,7 @@ ele1.addEventListener("click", function(){
 });
 
 
-var regis = document.getElementById("reg1");
+var regis = document.getElementById("reg");
 var anc =document.getElementById("anchor");
 
 regis.addEventListener("mouseover", () => {
