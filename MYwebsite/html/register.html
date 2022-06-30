@@ -32,7 +32,7 @@
        <form id = "form"  method="post"> 
             <input type = "text" name = "name1" id = "name1" placeholder="Enter Name" required><br><br>
             <input type = "email" name="email" id="email" placeholder="Enter Email" required><br><br>
-            <input type = "password" name = "pass" id = "pass" placeholder="Enter Password" required><br><br>
+            <input type = "password" name = "pass" id = "pass" pattern = "pattern=“(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}”" placeholder="Enter Password" required><br><br>
             <button id="submit1" >Submit&rarr;</button>
         </form>   
     </div>

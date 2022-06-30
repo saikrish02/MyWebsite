@@ -126,9 +126,29 @@ pass.blur();
    error.style.color = 'red';
    error.style.boxShadow = "1px 1px 1px 1px #808080";
    } 
-    var alph = "/[a-z]/i"; 
-    var num = 
+   
+    var col = pass_validate(); 
+    if(col == true){
+        pass.style.borderColor = 'green';  
+    } 
+    else{
+        pass.style.borderColor = 'red'; 
+    }
 });
+
+function pass_validate()
+{
+    var small_alph = /[a-z]/g; 
+    var upper_alph = /[A-Z]/g; 
+    var dig = /[0-9]/g;
+    if(pass.value.match(small_alph) && pass.value.match(upper_alph) && pass.value.match(dig) && pass.value.length >= 8)
+    {
+        return true;
+    } 
+    else{
+        return false;
+    }
+}
 
 ele2.addEventListener("click", function(){
 if(document.getElementById("name1").value.length == 0 || document.getElementById("email").value.length == 0 || document.getElementById("pass").value.length == 0)
