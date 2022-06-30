@@ -51,7 +51,7 @@ hr {
     position: relative;
     margin-top: 10px;
     float: right;
-    transition: width 2s;
+    transition: width 1s;
 }
 
 .reg_msg {
@@ -208,3 +208,21 @@ body {
     font-weight: bolder;
 }
 
+.pass-desc{
+    width: 500px;
+    height: 80px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+ align-items: left;
+    top:90%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px 3px 3px #888888;
+    border-radius: 10px;
+    color: red;
+    margin: auto;
+    visibility: hidden;
+}

@@ -129,11 +129,11 @@ pass.blur();
    
     var col = pass_validate(); 
     if(col == true){
-        
+        pass_desc.style.color = 'green';
         pass.style.border= '3px solid green';  
     } 
     else{
-        
+        pass_desc.style.color = 'red';
         pass.style.border = '3px solid red'; 
     }
 });
@@ -193,6 +193,15 @@ regis.addEventListener("mouseout", () => {
 });
 
 
+var pass_desc = document.getElementById("pass-desc");
+var img = document.getElementById("info");
+img.addEventListener("mouseover", () => {
+    pass_desc.style.visibility = 'visible';
+});
+
+img.addEventListener("mouseout", () => {
+    pass_desc.style.visibility = 'hidden';
+});
 
 
 

@@ -51,7 +51,7 @@ hr {
     position: relative;
     margin-top: 10px;
     float: right;
-    transition : width 2s;
+    transition : width 1s;
 }
 
 .reg_msg{
