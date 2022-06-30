@@ -125,7 +125,9 @@ pass.blur();
    error.style.border = "1px solid #808080";
    error.style.color = 'red';
    error.style.boxShadow = "1px 1px 1px 1px #808080";
-   }
+   } 
+    var alph = "/[a-z]/i"; 
+    var num = 
 });
 
 ele2.addEventListener("click", function(){
