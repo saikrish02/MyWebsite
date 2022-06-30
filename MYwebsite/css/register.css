@@ -39,10 +39,10 @@ hr {
 
 }
 
-.reg{
+.reg {
     background-color: #f2f2f2;
     box-shadow: 3px 3px 3px 3px #888888;
-    width : 250px;
+    width: 250px;
     text-align: center;
     height: 30px;
     font-size: 17px;
@@ -51,12 +51,12 @@ hr {
     position: relative;
     margin-top: 10px;
     float: right;
-    transition : width 2s;
+    transition: width 2s;
 }
 
-.reg_msg{
+.reg_msg {
     padding: 5px;
-    
+
 }
 
 /*.reg:hover{
@@ -65,14 +65,14 @@ hr {
     color: #f2f2f2;
 }*/
 
-#anchor{
-   color : #2b6777;
-   font-weight: bolder;
+#anchor {
+    color: #2b6777;
+    font-weight: bolder;
 }
 
 .inp {
     width: 375px;
-    height: 400px;
+    height: 450px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -83,7 +83,7 @@ hr {
     align-items: center;
     box-shadow: 3px 3px 3px 3px #888888;
     border-radius: 10px;
-    transition : width 2s, height 2s;
+    transition: width 2s, height 2s;
     overflow: hidden;
 }
 
@@ -98,7 +98,7 @@ hr {
     color: #2b6777;
 }
 
-#name1{
+#name1 {
     font-family: 'Montserrat', sans-serif;
     width: 85%;
     margin-left: 20px;
@@ -111,7 +111,7 @@ hr {
     font-size: 17px;
 }
 
-#email{
+#email {
     font-family: 'Montserrat', sans-serif;
     width: 85%;
     margin-left: 20px;
@@ -124,7 +124,7 @@ hr {
     font-size: 17px;
 }
 
-#pass{
+#pass {
     font-family: 'Montserrat', sans-serif;
     width: 85%;
     margin-left: 20px;
@@ -153,19 +153,18 @@ hr {
     cursor: pointer;
 }
 
-#submit1:hover{
+#submit1:hover {
     transform: scale(1.05);
 }
 
-#error_msg1
-{
+#error_msg1 {
     width: 375px;
     height: 30px;
     margin: auto;
     position: absolute;
     top: 0%;
     left: 0;
-    bottom: 67%;
+    bottom: 70%;
     right: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -179,7 +178,7 @@ hr {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     height: 50px;
 
-    background-color: #2b6777
+    background-color: #2b6777;
 }
 
 body {
@@ -191,3 +190,21 @@ body {
     height: 30px;
     overflow: hidden;
 }
+
+#terms {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#para {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#cond {
+    color: #2b6777;
+    font-weight: bolder;
+}
+

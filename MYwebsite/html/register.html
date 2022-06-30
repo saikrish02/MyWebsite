@@ -16,7 +16,7 @@
             <img class="icon" src="../img.png" alt="Icon">
         </div>
         <div class="nav-bar-child2">
-            <span class="Title"> My Website </span>
+            <a href = "../html/"><span class="Title"> My Website </span></a>
         </div>
     </div>
     <div class = "reg" id = "reg">
@@ -32,9 +32,19 @@
        <form id = "form"  method="post"> 
             <input type = "text" name = "name1" id = "name1" placeholder="Enter Name" required><br><br>
             <input type = "email" name="email" id="email" placeholder="Enter Email" required><br><br>
-            <input type = "password" name = "pass" id = "pass" pattern = "pattern=“(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}”" placeholder="Enter Password" required><br><br>
+            
+            <input type = "password" name = "pass" id = "pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter Password" required><img id = "info" width = 15px height = 15px style = "margin-left: 2px;" src = "../info.png">
+            <br><br>
+            <input type = "checkbox" name="terms" id = "terms" required = "required"><label id = "para">I agree the <u id = "cond"> Terms and conditions</u></label><br><br>
             <button id="submit1" >Submit&rarr;</button>
+            
         </form>   
+    </div>
+    <div class = "pass-desc">
+        <pre>Password must contain atleast
+            1. one lowercase letter
+            2. one uppercase letter
+            3. one digit</pre>
     </div>
     <script src="../javascript/register.js" ></script> 
    

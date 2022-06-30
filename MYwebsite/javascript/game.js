@@ -70,6 +70,7 @@ var regis = document.getElementById("reg");
 var anc =document.getElementById("anchor");
 
 regis.addEventListener("mouseover", () => {
+    console.log("hello");
     regis.style.width = "350px";
     regis.style.backgroundColor = "#2b6777";
     regis.style.color = 'white'; 

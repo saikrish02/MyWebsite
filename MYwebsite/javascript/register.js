@@ -23,7 +23,7 @@ ele.addEventListener("click", function () {
 });
 
 email.addEventListener("mouseover", function () {
-   if(email.style.borderColor != 'red'){
+   if(email.style.borderColor != 'red' && email.style.borderColor != 'green'){
     email.focus();
     email.style.borderColor = "#2b6777";
    }
@@ -35,7 +35,7 @@ email.addEventListener("mouseout", function () {
 
 
 email.addEventListener("click", function () {
-    if(email.style.borderColor != 'red')
+    if(email.style.borderColor != 'red' && email.style.borderColor != 'green')
     email.focus();
     
 });
@@ -51,7 +51,7 @@ ele2.addEventListener("mouseout", function () {
 });
 
 pass.addEventListener("mouseover", function () {
-    if(pass.style.borderColor != 'red'){
+    if(pass.style.borderColor != 'red' && pass.style.borderColor != 'green'){
     pass.focus();
     pass.style.borderColor = "#2b6777";
     }
@@ -63,7 +63,7 @@ pass.addEventListener("mouseout", function () {
 
 
 pass.addEventListener("click", function () {
-    if(pass.style.borderColor != 'red')
+    if(pass.style.borderColor != 'red' && pass.style.borderColor != 'green')
     pass.focus();
     
 });
@@ -129,10 +129,12 @@ pass.blur();
    
     var col = pass_validate(); 
     if(col == true){
-        pass.style.borderColor = 'green';  
+        
+        pass.style.border= '3px solid green';  
     } 
     else{
-        pass.style.borderColor = 'red'; 
+        
+        pass.style.border = '3px solid red'; 
     }
 });
 
@@ -151,7 +153,7 @@ function pass_validate()
 }
 
 ele2.addEventListener("click", function(){
-if(document.getElementById("name1").value.length == 0 || document.getElementById("email").value.length == 0 || document.getElementById("pass").value.length == 0)
+if(document.getElementById("name1").value.length == 0 || document.getElementById("email").value.length == 0 || document.getElementById("pass").value.length == 0 )
 {
    
    error.innerHTML= "All Fields Required!.";
