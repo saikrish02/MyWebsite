@@ -157,7 +157,12 @@ hr {
 }
 
 body {
-    background-color: #c8d8e4;
+   
+    background-image: url('https://th.bing.com/th/id/OIP.ppbFMDoOUaqlqH29YzLx9QHaEK?pid=ImgDet&w=1920&h=1080&rs=1') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .icon {

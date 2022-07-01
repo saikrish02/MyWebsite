@@ -39,10 +39,10 @@ hr {
 
 }
 
-.reg{
+.reg {
     background-color: #f2f2f2;
     box-shadow: 3px 3px 3px 3px #888888;
-    width : 250px;
+    width: 250px;
     text-align: center;
     height: 30px;
     font-size: 17px;
@@ -51,12 +51,12 @@ hr {
     position: relative;
     margin-top: 10px;
     float: right;
-    transition : width 1s;
+    transition: width 1s;
 }
 
-.reg_msg{
+.reg_msg {
     padding: 5px;
-    
+
 }
 
 /*.reg:hover{
@@ -65,9 +65,9 @@ hr {
     color: #f2f2f2;
 }*/
 
-#anchor{
-   color : #2b6777;
-   font-weight: bolder;
+#anchor {
+    color: #2b6777;
+    font-weight: bolder;
 }
 
 .inp {
@@ -83,7 +83,7 @@ hr {
     align-items: center;
     box-shadow: 3px 3px 3px 3px #888888;
     border-radius: 10px;
-    transition : width 2s, height 2s;
+    transition: width 2s, height 2s;
     overflow: hidden;
 }
 
@@ -127,12 +127,11 @@ hr {
     cursor: pointer;
 }
 
-#submit:hover{
+#submit:hover {
     transform: scale(1.05);
 }
 
-#error_msg
-{
+#error_msg {
     width: 350px;
     height: 50px;
     margin: auto;
@@ -152,12 +151,15 @@ hr {
 .nav-bar {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     height: 50px;
-
     background-color: #2b6777
 }
 
 body {
-    background-color: #c8d8e4;
+    background-image: url('https://th.bing.com/th/id/OIP.ppbFMDoOUaqlqH29YzLx9QHaEK?pid=ImgDet&w=1920&h=1080&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .icon {

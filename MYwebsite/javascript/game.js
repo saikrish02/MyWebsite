@@ -29,14 +29,11 @@ ele1.addEventListener("mouseout", function () {
 
 
 document.getElementById("name").addEventListener("input", function(){
-    error.innerHTML= "";
-    error.style.backgroundColor = "#c8d8e4";
-    error.style.border = "0px";
-    error.style.color = 'red';
-    error.style.boxShadow = "";
+    error.style.visibility = 'hidden';
     if(document.getElementById("name").value.length == 0)
     {
 ele.blur();
+error.style.visibility = 'visible';
    error.innerHTML= "Email Required!.";
    ele.style.border = "2px solid red";
    error.style.backgroundColor = '#f2f2f2';
@@ -49,6 +46,7 @@ ele.blur();
 ele1.addEventListener("click", function(){
 if(document.getElementById("name").value.length == 0)
 {
+    error.style.visibility = 'visible';
    error.innerHTML= "Email Required!.";
    error.style.backgroundColor = '#f2f2f2';
    ele.style.border= "2px solid red";

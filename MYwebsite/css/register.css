@@ -182,7 +182,11 @@ hr {
 }
 
 body {
-    background-color: #c8d8e4;
+    background-image: url('https://th.bing.com/th/id/OIP.ppbFMDoOUaqlqH29YzLx9QHaEK?pid=ImgDet&w=1920&h=1080&rs=1') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .icon {
@@ -209,20 +213,24 @@ body {
 }
 
 .pass-desc{
-    width: 500px;
-    height: 80px;
-    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 350px;
+    height: 100px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
- align-items: left;
-    top:90%;
+    align-items: left;
+    text-align: left;
+    top:80%;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: #f2f2f2;
     box-shadow: 3px 3px 3px 3px #888888;
     border-radius: 10px;
-    color: red;
+    color: #2b6777;
+    font-weight: bolder;
     margin: auto;
     visibility: hidden;
 }
