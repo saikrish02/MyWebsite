@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Register Page</title>
     <link rel="stylesheet" href="../css/register.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -32,11 +35,12 @@
         <br>
         <form id="form" method="post">
             <input type="text" name="name1" id="name1" placeholder="Enter Name" required><br><br>
+            
             <input type="email" name="email" id="email" placeholder="Enter Email" required><br><br>
-
+            <span class="fa fa-info-circle errspan"></span>
             <input type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                placeholder="Enter Password" required><img id="info" width=12px height=12px style="margin-left: 2px;"
-                src="../info.png">
+                placeholder="Enter Password" required>
+                
             <br><br>
             <input type="checkbox" name="terms" id="terms" required="required"><label id="para">I agree the <u
                     id="cond"> Terms and conditions</u></label><br><br>

@@ -196,7 +196,7 @@ regis.addEventListener("mouseout", () => {
 
 
 var pass_desc = document.getElementById("pass-desc");
-var img = document.getElementById("info");
+var img = document.getElementsByClassName("errspan")[0];
 img.addEventListener("mouseover", () => {
     pass_desc.style.visibility = 'visible';
 });
@@ -205,5 +205,14 @@ img.addEventListener("mouseout", () => {
     pass_desc.style.visibility = 'hidden';
 });
 
-
+var para = document.getElementById("para");
+var terms = document.getElementById("terms");
+para.addEventListener("click", () => {
+    if(terms.checked == true){
+        terms.checked = false; 
+    } 
+    else{
+        terms.checked = true;
+    }
+});
 
